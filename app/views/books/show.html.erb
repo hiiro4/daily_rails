@@ -1,0 +1,6 @@
+<div class="container">
+<p class="s-contents"><strong>title</strong>:<%=@book.title%></p>
+<p class="s-contents"><strong>body:<%=@book.body%></strong></p>
+
+<span><%=link_to"back",books_path%>|<%=link_to"edit",edit_book_path(@book)%></span>
+</div>
